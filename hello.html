@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<%
+
 document.addEventListener("click", function (event) {
   // Checking if the button was clicked
   if (!event.target.matches("#button")) return;
@@ -15,7 +15,7 @@ function renderJoke(data) {
   setup.innerHTML = data.setup;
   punchline.innerHTML = data.punchline;
 }
-%>
+
 <!-- Demonstrates CSS -->
 :root {
   --yellow: #f6e767;
